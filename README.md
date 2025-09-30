@@ -10,9 +10,7 @@ En la Ruta de la Seda moderna, tenemos **robots** y **tiendas** con cantidades d
 
 - Un robot puede moverse a una tienda y recolectar todo su dinero.  
 - Mover un robot cuesta **1 tenge por cada metro recorrido**.  
-- La **ganancia** se calcula como:  ganancia = dinero_tienda - distancia_robot_tienda
-
-- 
+- La **ganancia** se calcula como:  ganancia = dinero_tienda - distancia_robot_tienda 
 - Cada día aparece **un robot** o **una tienda** en una nueva posición.  
 - Al inicio de cada día:  
 - Los robots regresan a su posición inicial.  
