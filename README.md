@@ -5,7 +5,7 @@ El objetivo es construir paso a paso un simulador y luego una solución completa
 
 ---
 
-## 📌 Descripción del problema original
+##  Descripción del problema original
 En la Ruta de la Seda moderna, tenemos **robots** y **tiendas** con cantidades de *tenges* (moneda de Kazajistán).  
 
 - Un robot puede moverse a una tienda y recolectar todo su dinero.  
@@ -16,18 +16,18 @@ En la Ruta de la Seda moderna, tenemos **robots** y **tiendas** con cantidades d
 - Los robots regresan a su posición inicial.  
 - Las tiendas se reabastecen con la misma cantidad de dinero inicial.  
 
-👉 La tarea es calcular, para cada día, el **máximo beneficio posible** que se puede obtener al mover robots hacia las tiendas.
+ La tarea es calcular, para cada día, el **máximo beneficio posible** que se puede obtener al mover robots hacia las tiendas.
 
 ---
 
-## 🎯 Objetivo del proyecto
+##  Objetivo del proyecto
 Construir una aplicación que permita **simular y resolver** el problema, en varias fases llamadas **ciclos de desarrollo**.
 
 ---
 
-## 🌀 Ciclos de desarrollo
+##  Ciclos de desarrollo
 
-### 🔹 Ciclo 1 – Simulador inicial
+###  Ciclo 1 – Simulador inicial
 Los mini-ciclos definidos corresponden a los requisitos planteados en la guía:  
 1.	Create – Crear la estructura inicial del sistema.  
 2.	Add / remove store or resupply stores – Administración de tiendas.  
@@ -41,7 +41,7 @@ Los mini-ciclos definidos corresponden a los requisitos planteados en la guía:
 
 ---
 
-### 🔹 Ciclo 2 – Refactorización y extensión
+###  Ciclo 2 – Refactorización y extensión
 Los mini-ciclos definidos corresponden a los nuevos requisitos planteados en la guía:  
 1.	Create extensión – Construcción de la Ruta de la Seda a partir de la entrada del problema de la maratón.  
 2.	Move robot extensión – Decisión de movimientos de los robots buscando maximizar la ganancia.  
@@ -50,21 +50,21 @@ Los mini-ciclos definidos corresponden a los nuevos requisitos planteados en la 
 
 ---
 
-### 🔹 Ciclo 3 – Solución final del problema
+###  Ciclo 3 – Solución final del problema
 Los mini-ciclos definidos corresponden a los nuevos requisitos planteados en la guía:  
 1.	Solve – Resolver el problema de la maratón (cálculo de la máxima utilidad diaria).  
 2.	Simulate – Simular la solución obtenida para visualizar el comportamiento en la Ruta de la Seda.  
 
 ---
 
-## 📂 Entregables por ciclo
+##  Entregables por ciclo
 - Diseño en **Astah**.  
 - Código en **Java** siguiendo estándares de documentación.  
 - Casos de prueba unitarios (ej: `SilkRoadTest`, `SilkRoadC2Test`, `SilkRoadContestTest`).  
 - Documento de retrospectiva del ciclo.  
 
 ---
-## 👨‍💻 Autores
+##  Autores
 Proyecto desarrollado por:  
 - **Marco Jiménez**  
 - **Santiago Ruiz**  
