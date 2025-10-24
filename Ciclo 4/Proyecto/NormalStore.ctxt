@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NormalStore
+comment0.text=\r\n\ Tienda\ normal\:\ vende\ siempre\ que\ tenga\ ganancias\ disponibles.\r\n
+comment1.params=price
+comment1.target=NormalStore(int)
+comment1.text=\r\n\ Representa\ una\ tienda\ normal\ dentro\ del\ sistema.\r\n\ La\ {@code\ NormalStore}\ vende\ sus\ productos\ siempre\ que\ tenga\ \r\n\ ganancias\ disponibles,\ sin\ aplicar\ restricciones\ adicionales.\r\n\ Hereda\ de\ la\ clase\ {@code\ Store}\ y\ se\ inicializa\ con\ un\ precio\r\n\ espec\u00EDfico\ y\ un\ color\ azul\ que\ la\ identifica\ visualmente.\r\n
+numComments=2

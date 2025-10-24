@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NormalRobot
+comment0.text=\r\n\ Robot\ normal\:\ puede\ moverse\ en\ cualquier\ direcci\u00F3n\r\n\ y\ recoge\ todo\ el\ dinero\ disponible\ de\ las\ tiendas.\r\n
+comment1.params=
+comment1.target=NormalRobot()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ NormalRobot.\r\n\ \r\n\ Crea\ un\ robot\ de\ tipo\ normal\ con\ la\ capacidad\ de\ moverse\r\n\ en\ cualquier\ direcci\u00F3n\ y\ recoger\ todo\ el\ dinero\ disponible\r\n\ de\ las\ tiendas.\ \r\n\ \r\n\ Al\ ser\ instanciado,\ el\ robot\ se\ inicializa\ con\ el\ color\ azul\r\n\ mediante\ la\ llamada\ al\ m\u00E9todo\ {@code\ changeColorRobot("blue")}\ \r\n\ de\ la\ clase\ padre\ {@code\ Robot}.\r\n
+numComments=2

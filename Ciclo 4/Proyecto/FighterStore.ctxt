@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FighterStore
+comment0.text=\r\n\ FighterStore\:\ solo\ vende\ a\ robots\ con\ m\u00E1s\ dinero\ acumulado\r\n\ que\ la\ tienda\ misma.\r\n
+comment1.params=price
+comment1.target=FighterStore(int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ FighterStore.\r\n\ Inicializa\ la\ tienda\ con\ el\ valor\ de\ ganancia\ inicial\ especificado\r\n\ y\ cambia\ su\ color\ a\ "purple"\ mediante\ el\ m\u00E9todo\ {@code\ changeColorStore("purple")}.\r\n\ @param\ price\ el\ monto\ inicial\ de\ ganancias\ de\ la\ tienda.\r\n
+comment2.params=robot
+comment2.target=boolean\ canSellTo(Robot)
+comment2.text=\r\n\ Determina\ si\ la\ tienda\ puede\ venderle\ a\ un\ robot\ espec\u00EDfico.\r\n\ La\ venta\ solo\ es\ posible\ si\ el\ robot\ tiene\ m\u00E1s\ dinero\ acumulado\r\n\ que\ la\ tienda\ y\ si\ la\ tienda\ a\u00FAn\ posee\ ganancias\ disponibles.\r\n\ @param\ robot\ el\ robot\ que\ intenta\ comprar\ a\ la\ tienda.\r\n\ @return\ {@code\ true}\ si\ el\ robot\ puede\ comprar;\ {@code\ false}\ en\ caso\ contrario.\r\n
+numComments=3

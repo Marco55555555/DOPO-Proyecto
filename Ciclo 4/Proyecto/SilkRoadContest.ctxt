@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SilkRoadContest
+comment0.text=\r\n\ Clase\ de\ concurso\ que\ utiliza\ la\ SilkRoad\ para\ resolver\ el\ problema\r\n\ y\ tambi\u00E9n\ para\ simular\ paso\ a\ paso.\r\n
+comment1.params=days
+comment1.target=long[]\ solve(int[][])
+comment1.text=\r\n\ Resuelve\ el\ problema\ .\r\n\ @param\ days\ matriz\ con\ los\ d\u00EDas\r\n\ @return\ arreglo\ de\ ganancias\ acumuladas\ por\ d\u00EDa\r\n
+comment2.params=days\ slow
+comment2.target=void\ simulate(int[][],\ boolean)
+comment2.text=\r\n\ Simula\ la\ soluci\u00F3n\ paso\ a\ paso.\r\n\ @param\ days\ matriz\ con\ los\ d\u00EDas\r\n\ @param\ slow\ si\ es\ true,\ hace\ pausas\ entre\ d\u00EDas\r\n
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=AutonomousStore
+comment0.text=\r\n\ Tienda\ aut\u00F3noma\:\ se\ ubica\ aleatoriamente\ al\ crearse.\r\n
+comment1.params=price
+comment1.target=AutonomousStore(int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ AutonomousStore.\r\n\ Inicializa\ la\ tienda\ con\ el\ precio\ indicado\ y\ configura\ su\ color\ a\ "pink"\r\n\ mediante\ el\ m\u00E9todo\ {@code\ changeColorStore("pink")}\ heredado\ de\ {@code\ Store}.\r\n\ @param\ price\ el\ precio\ de\ venta\ o\ ganancia\ inicial\ de\ la\ tienda.\r\n
+numComments=2

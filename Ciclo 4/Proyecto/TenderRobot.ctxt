@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TenderRobot
+comment0.text=\r\n\ Robot\ tierno\:\ solo\ toma\ la\ mitad\ del\ dinero\ de\ las\ tiendas\ que\ visita.\r\n
+comment1.params=
+comment1.target=TenderRobot()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ TenderRobot.\r\n\ Crea\ un\ robot\ de\ tipo\ tierno\ que\ se\ inicializa\ con\ el\ color\ \r\n\ "gold"\ mediante\ la\ llamada\ al\ m\u00E9todo\ {@code\ changeColorRobot("gold")}\r\n\ heredado\ de\ la\ clase\ {@code\ Robot}.\r\n
+comment2.params=storeProfit
+comment2.target=int\ collectFromStore(int)
+comment2.text=\r\n\ Recolecta\ dinero\ de\ una\ tienda,\ pero\ solo\ la\ mitad\ del\ total\ disponible.\r\n\ Este\ m\u00E9todo\ redefine\ el\ comportamiento\ original\ del\ robot,\ limitando\r\n\ la\ cantidad\ de\ dinero\ recolectado\ al\ 50%\ del\ valor\ recibido.\r\n\ @param\ storeProfit\ la\ cantidad\ total\ de\ dinero\ disponible\ en\ la\ tienda.\r\n\ @return\ la\ mitad\ del\ dinero\ disponible\ ({@code\ storeProfit\ /\ 2}).\r\n
+numComments=3

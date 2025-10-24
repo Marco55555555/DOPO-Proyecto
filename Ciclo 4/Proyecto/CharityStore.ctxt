@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CharityStore
+comment0.text=\r\n\ CharityStore\:\ tienda\ que\ dona\ la\ mitad\ del\ profit\ a\ los\ robots\r\n\ en\ lugar\ de\ vaciarse\ completamente.\r\n
+comment1.params=price
+comment1.target=CharityStore(int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ CharityStore.\r\n\ Inicializa\ la\ tienda\ con\ el\ valor\ de\ ganancia\ inicial\ proporcionado\r\n\ y\ cambia\ su\ color\ a\ "turquoise"\ mediante\ el\ m\u00E9todo\ {@code\ changeColorStore("turquoise")}.\r\n\ @param\ price\ el\ monto\ inicial\ de\ ganancia\ de\ la\ tienda.\r\n
+comment2.params=robot
+comment2.target=void\ sellTo(Robot)
+comment2.text=\r\n\ Realiza\ una\ venta\ al\ robot,\ don\u00E1ndole\ la\ mitad\ de\ las\ ganancias\ actuales.\r\n\ Si\ la\ tienda\ tiene\ ganancias\ disponibles,\ calcula\ la\ mitad\ de\ su\ \r\n\ {@code\ profit}\ como\ monto\ de\ donaci\u00F3n,\ lo\ transfiere\ al\ robot\ mediante\ \r\n\ {@code\ addProfit()},\ y\ reduce\ su\ ganancia\ actual\ en\ esa\ misma\ cantidad.\r\n\ Si\ el\ profit\ llega\ a\ cero\ tras\ la\ transacci\u00F3n,\ la\ tienda\ se\ marca\ como\ vac\u00EDa\r\n\ utilizando\ {@code\ markEmpty()}.\r\n\ @param\ robot\ el\ robot\ que\ recibe\ la\ donaci\u00F3n\ de\ la\ tienda.\r\n
+comment3.params=robot
+comment3.target=boolean\ canSellTo(Robot)
+comment3.text=\r\n\ Verifica\ si\ la\ tienda\ puede\ realizar\ una\ donaci\u00F3n\ o\ venta.\r\n\ La\ tienda\ solo\ puede\ donar\ si\ a\u00FAn\ tiene\ ganancias\ disponibles.\r\n\ @param\ robot\ el\ robot\ que\ intenta\ recibir\ la\ donaci\u00F3n.\r\n\ @return\ {@code\ true}\ si\ la\ tienda\ tiene\ ganancias;\ {@code\ false}\ en\ caso\ contrario.\r\n
+numComments=4

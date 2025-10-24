@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=NeverBackRobot
+comment0.text=\r\n\ Robot\ que\ nunca\ retrocede\:\ solo\ puede\ avanzar\ hacia\ adelante.\r\n
+comment1.params=
+comment1.target=NeverBackRobot()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ NeverBackRobot.\r\n\ Crea\ un\ robot\ que\ no\ puede\ moverse\ hacia\ atr\u00E1s\ y\ \r\n\ establece\ su\ color\ inicial\ en\ "salmon"\ mediante\ la\r\n\ llamada\ al\ m\u00E9todo\ {@code\ changeColorRobot("salmon")}\r\n\ heredado\ de\ la\ clase\ {@code\ Robot}.\r\n
+comment2.params=
+comment2.target=boolean\ canMoveBack()
+comment2.text=\r\n\ Indica\ si\ el\ robot\ puede\ retroceder.\r\n\ En\ este\ caso,\ siempre\ devuelve\ {@code\ false},\ ya\ que\ \r\n\ el\ {@code\ NeverBackRobot}\ no\ tiene\ permitido\ moverse\r\n\ hacia\ atr\u00E1s.\r\n\ @return\ {@code\ false},\ porque\ este\ robot\ nunca\ puede\ retroceder.\r\n
+numComments=3
