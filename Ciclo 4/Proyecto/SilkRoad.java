@@ -347,7 +347,7 @@ public class SilkRoad {
         }
         Robot robot = origen.getRobots().remove(0);
         int destinoIndex = (celdaIndex - 1) + pasos;
-         if (robot instanceof NeverBackRobot) {
+         if (robot.canMoveBack() == false) {
             boolean foundStore = false;
             for (int i = celdaIndex; i < celdas.size(); i++) { 
                 if (celdas.get(i).getStore() != null) {
@@ -370,14 +370,6 @@ public class SilkRoad {
             return; 
         } 
         Cell destino = celdas.get(destinoIndex);
-        
-         if (robot instanceof NeverBackRobot && pasos > 0 && destino.getStore() == null) {
-            origen.addRobot(robot);
-            if (isVisible) {
-                JOptionPane.showMessageDialog(null,"El NeverBackRobot solo puede avanzar si hay una tienda en la celda destino.");
-            }
-            return;
-        }
         
         destino.addRobot(robot);    
         if (destino.getStore() != null && destino.getStore().canSellTo(robot)) {
