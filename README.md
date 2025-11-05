@@ -56,6 +56,10 @@ Los mini-ciclos definidos corresponden a los nuevos requisitos planteados en la 
 2.	Simulate – Simular la solución obtenida para visualizar el comportamiento en la Ruta de la Seda.  
 
 ---
+###  Ciclo Final 
+Cumplimiento de los requisitos funcionales para los casos de uso para User y Solver
+
+---
 
 ##  Entregables por ciclo
 - Diseño en **Astah**.  
@@ -67,7 +71,7 @@ Los mini-ciclos definidos corresponden a los nuevos requisitos planteados en la 
 ##  Autores
 Proyecto desarrollado por:  
 - **Marco Jiménez**  
-- **Santiago Ruiz**  
+- **William Santiago Ruiz**  
 
 Materia: **DOPO – Grupo 4**  
 
